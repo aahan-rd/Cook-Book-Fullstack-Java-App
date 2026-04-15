@@ -17,43 +17,33 @@ import app.cookyourbooks.gui.NavigationService.View;
 /**
  * Controller for the main application layout ({@code MainView.fxml}).
  *
- * <p>
- * Manages the sidebar navigation buttons and swaps the content area when the
- * user navigates
- * between features. Each feature's view is provided via
- * {@link #setViewNode(View, Node)} during
+ * <p>Manages the sidebar navigation buttons and swaps the content area when the user navigates
+ * between features. Each feature's view is provided via {@link #setViewNode(View, Node)} during
  * application startup.
  *
  * <h2>How navigation works</h2>
  *
  * <ol>
- * <li>The user clicks a sidebar button (e.g., "Library")
- * <li>The button handler calls {@link NavigationService#navigateTo(View)}
- * <li>The navigation listener in this controller swaps the content area to show
- * the corresponding
- * feature view
+ *   <li>The user clicks a sidebar button (e.g., "Library")
+ *   <li>The button handler calls {@link NavigationService#navigateTo(View)}
+ *   <li>The navigation listener in this controller swaps the content area to show the corresponding
+ *       feature view
  * </ol>
  */
-@SuppressWarnings("NullAway.Init") // FXML fields are injected by the FXMLLoader, not the constructor
+@SuppressWarnings(
+    "NullAway.Init") // FXML fields are injected by the FXMLLoader, not the constructor
 public class MainViewController {
 
   private static final String DARK_MODE_CLASS = "dark-mode";
   private static final String PREF_KEY_DARK_MODE = "darkModeEnabled";
 
-  @FXML
-  private BorderPane rootPane;
-  @FXML
-  private StackPane contentArea;
-  @FXML
-  private Button libraryButton;
-  @FXML
-  private Button editorButton;
-  @FXML
-  private Button importButton;
-  @FXML
-  private Button searchButton;
-  @FXML
-  private Button themeToggleButton;
+  @FXML private BorderPane rootPane;
+  @FXML private StackPane contentArea;
+  @FXML private Button libraryButton;
+  @FXML private Button editorButton;
+  @FXML private Button importButton;
+  @FXML private Button searchButton;
+  @FXML private Button themeToggleButton;
 
   private final NavigationService navigationService;
   private final Map<View, Node> viewNodes = new EnumMap<>(View.class);
@@ -72,9 +62,7 @@ public class MainViewController {
   /**
    * Registers a feature view's root node for a given navigation view.
    *
-   * <p>
-   * Call this during app startup for each feature that has been implemented.
-   * Views that are not
+   * <p>Call this during app startup for each feature that has been implemented. Views that are not
    * registered will show a placeholder when navigated to.
    *
    * @param view the navigation view
@@ -84,10 +72,7 @@ public class MainViewController {
     viewNodes.put(view, node);
   }
 
-  /**
-   * Called by FXML after the layout is loaded. Sets up button handlers and
-   * navigation listener.
-   */
+  /** Called by FXML after the layout is loaded. Sets up button handlers and navigation listener. */
   @SuppressWarnings("UnusedMethod") // Called reflectively by FXMLLoader
   @FXML
   private void initialize() {
