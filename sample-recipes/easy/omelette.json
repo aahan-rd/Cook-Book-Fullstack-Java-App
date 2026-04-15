@@ -1,0 +1,331 @@
+{
+  "id" : "84cafac6-353c-4aec-b960-9737c436a7ad",
+  "title" : "OMELETTE",
+  "servings" : null,
+  "ingredients" : [ {
+    "type" : "measured",
+    "name" : "eggs",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 3.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "milk",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 3.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "butter/oil",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 2.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "baby spinach",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "CUP"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "mushrooms",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "CUP"
+    },
+    "preparation" : "sliced",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "sun dried tomatoes",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 2.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : "sliced",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "minced garlic",
+    "quantity" : {
+      "type" : "fractional",
+      "whole" : 0,
+      "numerator" : 1,
+      "denominator" : 4,
+      "unit" : "TEASPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "goat cheese",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "OUNCE"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "vague",
+    "name" : "salt",
+    "description" : "to taste",
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "vague",
+    "name" : "pepper",
+    "description" : "to taste",
+    "preparation" : null,
+    "notes" : null
+  } ],
+  "instructions" : [ {
+    "stepNumber" : 1,
+    "text" : "Beat eggs and milk in a bowl. Add salt and pepper to taste.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "eggs",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 3.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 3.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "milk",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 3.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 3.0,
+        "unit" : "TABLESPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "vague",
+        "name" : "salt",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : null
+    }, {
+      "ingredient" : {
+        "type" : "vague",
+        "name" : "pepper",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : null
+    } ]
+  }, {
+    "stepNumber" : 2,
+    "text" : "Heat up a pan, coat with 1 tbsp. butter or oil. Add mushrooms and garlic, stirring occasionally to sauté.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "butter/oil",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "TABLESPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "mushrooms",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "CUP"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "CUP"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "minced garlic",
+        "quantity" : {
+          "type" : "fractional",
+          "whole" : 0,
+          "numerator" : 1,
+          "denominator" : 4,
+          "unit" : "TEASPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "fractional",
+        "whole" : 0,
+        "numerator" : 1,
+        "denominator" : 4,
+        "unit" : "TEASPOON"
+      }
+    } ]
+  }, {
+    "stepNumber" : 3,
+    "text" : "Add spinach in later to preserve some crispness, or sooner to cook it completely. Add sun-dried tomatoes with spinach. Add a pinch of pepper as you stir.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "baby spinach",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "CUP"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "CUP"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "sun dried tomatoes",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 2.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 2.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "vague",
+        "name" : "pepper",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : null
+    } ]
+  }, {
+    "stepNumber" : 4,
+    "text" : "Remove sauté from pan and set aside. Reduce heat.",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 5,
+    "text" : "Coat pan again using 1 tbsp. butter or oil. Add eggs and sift slowly, allowing it to set halfway. Add sauté on top of the eggs, trying to keep it in one half of the pan. Crumble goat cheese and add on top of sauté.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "butter/oil",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "TABLESPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "eggs",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 3.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 3.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "goat cheese",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "OUNCE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "OUNCE"
+      }
+    } ]
+  }, {
+    "stepNumber" : 6,
+    "text" : "Fold eggs over and allow them to set. No need to flip.",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 7,
+    "text" : "If you want to change it up, substitute red peppers or pitted Kalamata olives for sun-dried tomatoes.",
+    "ingredientRefs" : [ ]
+  } ],
+  "conversionRules" : [ ]
+}

@@ -1,0 +1,282 @@
+{
+  "id" : "720b2b64-6a33-41f7-a0c9-0282a4a04336",
+  "title" : "GRAPEFRUIT JELLY",
+  "servings" : {
+    "amount" : 5,
+    "description" : "servings"
+  },
+  "ingredients" : [ {
+    "type" : "measured",
+    "name" : "granulated gelatine",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "cold water",
+    "quantity" : {
+      "type" : "fractional",
+      "whole" : 0,
+      "numerator" : 1,
+      "denominator" : 4,
+      "unit" : "CUP"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "boiling water",
+    "quantity" : {
+      "type" : "fractional",
+      "whole" : 0,
+      "numerator" : 1,
+      "denominator" : 4,
+      "unit" : "CUP"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "sugar",
+    "quantity" : {
+      "type" : "range",
+      "min" : 0.33,
+      "max" : 0.5,
+      "unit" : "CUP"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "lemon juice",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "grapefruit, pulp and juice together",
+    "quantity" : {
+      "type" : "fractional",
+      "whole" : 1,
+      "numerator" : 1,
+      "denominator" : 2,
+      "unit" : "CUP"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "sherry or maraschino",
+    "quantity" : {
+      "type" : "range",
+      "min" : 2.0,
+      "max" : 3.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : "at discretion"
+  }, {
+    "type" : "measured",
+    "name" : "candied cherries",
+    "quantity" : {
+      "type" : "range",
+      "min" : 6.0,
+      "max" : 8.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : null,
+    "notes" : null
+  } ],
+  "instructions" : [ {
+    "stepNumber" : 1,
+    "text" : "Soften the gelatine in the cold water and dissolve in the hot water;",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "granulated gelatine",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "TABLESPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "cold water",
+        "quantity" : {
+          "type" : "fractional",
+          "whole" : 0,
+          "numerator" : 1,
+          "denominator" : 4,
+          "unit" : "CUP"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "fractional",
+        "whole" : 0,
+        "numerator" : 1,
+        "denominator" : 4,
+        "unit" : "CUP"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "boiling water",
+        "quantity" : {
+          "type" : "fractional",
+          "whole" : 0,
+          "numerator" : 1,
+          "denominator" : 4,
+          "unit" : "CUP"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "fractional",
+        "whole" : 0,
+        "numerator" : 1,
+        "denominator" : 4,
+        "unit" : "CUP"
+      }
+    } ]
+  }, {
+    "stepNumber" : 2,
+    "text" : "add the sugar and stir occasionally until cold,",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "sugar",
+        "quantity" : {
+          "type" : "range",
+          "min" : 0.33,
+          "max" : 0.5,
+          "unit" : "CUP"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "range",
+        "min" : 0.33,
+        "max" : 0.5,
+        "unit" : "CUP"
+      }
+    } ]
+  }, {
+    "stepNumber" : 3,
+    "text" : "then add the fruit and juice, also wine if used.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "lemon juice",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "TABLESPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "grapefruit, pulp and juice together",
+        "quantity" : {
+          "type" : "fractional",
+          "whole" : 1,
+          "numerator" : 1,
+          "denominator" : 2,
+          "unit" : "CUP"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "fractional",
+        "whole" : 1,
+        "numerator" : 1,
+        "denominator" : 2,
+        "unit" : "CUP"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "sherry or maraschino",
+        "quantity" : {
+          "type" : "range",
+          "min" : 2.0,
+          "max" : 3.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "range",
+        "min" : 2.0,
+        "max" : 3.0,
+        "unit" : "TABLESPOON"
+      }
+    } ]
+  }, {
+    "stepNumber" : 4,
+    "text" : "Set five small moulds in a pan of ice and water to become chilled.",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 5,
+    "text" : "Cut the cherries in slices to form rings.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "candied cherries",
+        "quantity" : {
+          "type" : "range",
+          "min" : 6.0,
+          "max" : 8.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "range",
+        "min" : 6.0,
+        "max" : 8.0,
+        "unit" : "WHOLE"
+      }
+    } ]
+  }, {
+    "stepNumber" : 6,
+    "text" : "With a steel skewer dip the cherry rings in the grapefruit mixture, and set them on the chilled sides and bottoms of the moulds, to which they will adhere.",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 7,
+    "text" : "Then fill the moulds, little by little, with the grapefruit mixture.",
+    "ingredientRefs" : [ ]
+  } ],
+  "conversionRules" : [ ]
+}

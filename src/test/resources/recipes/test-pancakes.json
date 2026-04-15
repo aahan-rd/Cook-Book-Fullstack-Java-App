@@ -1,0 +1,25 @@
+{
+  "title": "Test Pancakes",
+  "servings": { "amount": 4, "description": "servings" },
+  "ingredients": [
+    {
+      "type": "measured",
+      "name": "flour",
+      "quantity": { "type": "exact", "amount": 2.0, "unit": "CUP" },
+      "preparation": null,
+      "notes": null
+    },
+    {
+      "type": "measured",
+      "name": "milk",
+      "quantity": { "type": "exact", "amount": 1.0, "unit": "CUP" },
+      "preparation": null,
+      "notes": null
+    }
+  ],
+  "instructions": [
+    { "stepNumber": 1, "text": "Mix ingredients", "ingredientRefs": [] },
+    { "stepNumber": 2, "text": "Cook on griddle", "ingredientRefs": [] }
+  ],
+  "conversionRules": []
+}

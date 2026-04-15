@@ -1,0 +1,271 @@
+{
+  "id" : "e903b687-03a9-455b-8cf8-092a773e1905",
+  "title" : "GUACAMOLE",
+  "servings" : null,
+  "ingredients" : [ {
+    "type" : "measured",
+    "name" : "avocados",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 4.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : "pitted and peeled",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "limes",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 2.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : "juiced",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "ground cumin",
+    "quantity" : {
+      "type" : "fractional",
+      "whole" : 0,
+      "numerator" : 1,
+      "denominator" : 2,
+      "unit" : "TEASPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "ripe plum tomatoes",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 2.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : "seeded and diced",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "red onion",
+    "quantity" : {
+      "type" : "fractional",
+      "whole" : 0,
+      "numerator" : 1,
+      "denominator" : 4,
+      "unit" : "CUP"
+    },
+    "preparation" : "diced",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "garlic",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 2.0,
+      "unit" : "TEASPOON"
+    },
+    "preparation" : "minced",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "jalapenos",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 2.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : "seeded and chopped",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "fresh cilantro",
+    "quantity" : {
+      "type" : "fractional",
+      "whole" : 0,
+      "numerator" : 1,
+      "denominator" : 2,
+      "unit" : "CUP"
+    },
+    "preparation" : "chopped",
+    "notes" : null
+  } ],
+  "instructions" : [ {
+    "stepNumber" : 1,
+    "text" : "Put everything in a bowl and mix until you get a guacamole-type consistency. Serve with tortilla chips.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "avocados",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 4.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 4.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "limes",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 2.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 2.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "ground cumin",
+        "quantity" : {
+          "type" : "fractional",
+          "whole" : 0,
+          "numerator" : 1,
+          "denominator" : 2,
+          "unit" : "TEASPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "fractional",
+        "whole" : 0,
+        "numerator" : 1,
+        "denominator" : 2,
+        "unit" : "TEASPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "ripe plum tomatoes",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 2.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 2.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "red onion",
+        "quantity" : {
+          "type" : "fractional",
+          "whole" : 0,
+          "numerator" : 1,
+          "denominator" : 4,
+          "unit" : "CUP"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "fractional",
+        "whole" : 0,
+        "numerator" : 1,
+        "denominator" : 4,
+        "unit" : "CUP"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "garlic",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 2.0,
+          "unit" : "TEASPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 2.0,
+        "unit" : "TEASPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "jalapenos",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 2.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 2.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "fresh cilantro",
+        "quantity" : {
+          "type" : "fractional",
+          "whole" : 0,
+          "numerator" : 1,
+          "denominator" : 2,
+          "unit" : "CUP"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "fractional",
+        "whole" : 0,
+        "numerator" : 1,
+        "denominator" : 2,
+        "unit" : "CUP"
+      }
+    } ]
+  }, {
+    "stepNumber" : 2,
+    "text" : "Prepare to be everyone's best friend.",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 3,
+    "text" : "The lime juice is what really makes this recipe stand out, so make sure not to skimp!",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "limes",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 2.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 2.0,
+        "unit" : "WHOLE"
+      }
+    } ]
+  } ],
+  "conversionRules" : [ ]
+}

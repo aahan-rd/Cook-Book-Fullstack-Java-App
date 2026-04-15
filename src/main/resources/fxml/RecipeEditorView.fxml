@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--
+  RecipeEditorView.fxml
+
+  Two panels in a StackPane:
+    readPanel  — title, optional description block (servings/prep/cook),
+                 ingredients with quantities, numbered steps
+    editPanel  — editable title, optional description fields,
+                 reorderable ingredients, editable steps
+-->
+<StackPane xmlns:fx="http://javafx.com/fxml/1"
+           xmlns="http://javafx.com/javafx/17"
+           fx:controller="app.cookyourbooks.gui.view.RecipeEditorViewController">
+
+    <!-- ══════════════════════════════════════
+         READ PANEL
+    ══════════════════════════════════════ -->
+    <ScrollPane fx:id="readPanel" fitToWidth="true"
+                style="-fx-background: white; -fx-background-color: white;">
+        <VBox fx:id="readContent" spacing="0">
+            <padding><Insets top="28" right="36" bottom="36" left="36"/></padding>
+
+            <!-- Title row: large title left, Edit button right -->
+            <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 8 0;">
+                <Label fx:id="titleLabel"
+                       HBox.hgrow="ALWAYS"
+                       maxWidth="Infinity"
+                       wrapText="true"
+                       style="-fx-font-size: 28px; -fx-font-weight: bold;"/>
+                <Button fx:id="editButton" text="Edit"
+                        style="-fx-background-color: #4A90D9;
+                               -fx-text-fill: white;
+                               -fx-font-size: 13px;
+                               -fx-padding: 7 22 7 22;
+                               -fx-background-radius: 6;"/>
+            </HBox>
+
+            <!-- Status message -->
+            <Label fx:id="collectionLabel"
+                   style="-fx-text-fill: #888; -fx-font-size: 12px; -fx-padding: 0 0 4 0;"/>
+            <Label fx:id="statusLabel"
+                   style="-fx-text-fill: #4A90D9; -fx-font-size: 12px; -fx-padding: 0 0 4 0;"/>
+
+            <!-- Description block: servings / prep / cook time
+                 Hidden when all three are empty — managed by controller -->
+            <VBox fx:id="readDescriptionBlock" spacing="4"
+                  style="-fx-padding: 10 14 10 14;
+                         -fx-background-color: #f7f7f7;
+                         -fx-background-radius: 6;
+                         -fx-border-color: #e0e0e0;
+                         -fx-border-radius: 6;">
+                <HBox spacing="24">
+                    <Label fx:id="readServingsLabel"  style="-fx-font-size: 13px;"/>
+                    <Label fx:id="readPrepTimeLabel"  style="-fx-font-size: 13px;"/>
+                    <Label fx:id="readCookTimeLabel"  style="-fx-font-size: 13px;"/>
+                </HBox>
+            </VBox>
+
+            <!-- Spacer -->
+            <Region prefHeight="16"/>
+            <Separator/>
+            <Region prefHeight="16"/>
+
+            <!-- Ingredients -->
+            <Label text="Ingredients"
+                   style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-padding: 0 0 8 0;"/>
+            <Region prefHeight="24"/>
+            <ListView fx:id="readIngredientList"
+                      style="-fx-background-color: transparent;
+                             -fx-border-color: transparent;
+                             -fx-focus-color: transparent;
+                             -fx-faint-focus-color: transparent;
+                             -fx-padding: 0 0 16 0;"/>
+
+            <Separator/>
+            <Region prefHeight="16"/>
+
+            <!-- Steps -->
+            <Label text="Steps"
+                   style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-padding: 0 0 8 0;"/>
+            <Region prefHeight="24"/>
+            <ListView fx:id="readStepsList"
+                      style="-fx-background-color: transparent;
+                             -fx-border-color: transparent;
+                             -fx-focus-color: transparent;
+                             -fx-faint-focus-color: transparent;
+                             -fx-padding: 0 0 16 0;"/>
+
+        </VBox>
+    </ScrollPane>
+
+    <!-- ══════════════════════════════════════
+         EDIT PANEL
+    ══════════════════════════════════════ -->
+    <ScrollPane fx:id="editPanel" fitToWidth="true"
+                style="-fx-background: white; -fx-background-color: white;">
+        <VBox spacing="0">
+            <padding><Insets top="24" right="36" bottom="36" left="36"/></padding>
+
+            <!-- Top bar: Title label + Exit/Save right -->
+            <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 12 0;">
+                <Label text="Edit Recipe"
+                       HBox.hgrow="ALWAYS"
+                       maxWidth="Infinity"
+                       style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #444;"/>
+                <Button fx:id="discardButton" text="Cancel"
+                        style="-fx-background-color: #eeeeee;
+                               -fx-font-size: 13px;
+                               -fx-padding: 7 16 7 16;
+                               -fx-background-radius: 6;"/>
+                <Region prefWidth="8"/>
+                <Button fx:id="saveButton" text="Save"
+                        style="-fx-background-color: #4CAF50;
+                               -fx-text-fill: white;
+                               -fx-font-size: 13px;
+                               -fx-padding: 7 22 7 22;
+                               -fx-background-radius: 6;"/>
+            </HBox>
+
+            <!-- Edit status message -->
+            <Label fx:id="editStatusLabel"
+                   style="-fx-text-fill: #888; -fx-font-size: 12px; -fx-padding: 0 0 8 0;"/>
+
+            <Separator/>
+            <Region prefHeight="16"/>
+
+            <!-- Title field -->
+            <Label text="Title" style="-fx-font-weight: bold; -fx-font-size: 13px;"/>
+            <Region prefHeight="4"/>
+            <TextField fx:id="titleField"
+                       promptText="Recipe title..."
+                       style="-fx-font-size: 15px; -fx-padding: 8 10 8 10;"/>
+
+            <Label fx:id="titleErrorLabel"
+              text="A title is required."
+              style="-fx-text-fill: #cc0000; -fx-font-size: 11px; -fx-padding: 2 0 0 2;"/>
+
+            <Region prefHeight="20"/>
+            <Separator/>
+            <Region prefHeight="16"/>
+
+            <!-- Description: servings, prep time, cook time -->
+            <Label text="Description (optional)"
+                   style="-fx-font-weight: bold; -fx-font-size: 13px;"/>
+            <Region prefHeight="8"/>
+            <GridPane hgap="12" vgap="8">
+                <Label text="Servings" style="-fx-font-size: 12px; -fx-text-fill: #666;"
+                       GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                <Label text="Prep time" style="-fx-font-size: 12px; -fx-text-fill: #666;"
+                       GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                <Label text="Cook time" style="-fx-font-size: 12px; -fx-text-fill: #666;"
+                       GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+                <TextField fx:id="servingsField"
+                           promptText="e.g. 4 servings"
+                           style="-fx-font-size: 13px;"
+                           GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                <TextField fx:id="prepTimeField"
+                           promptText="e.g. 15 mins"
+                           style="-fx-font-size: 13px;"
+                           GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                <TextField fx:id="cookTimeField"
+                           promptText="e.g. 30 mins"
+                           style="-fx-font-size: 13px;"
+                           GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+                <columnConstraints>
+                    <ColumnConstraints hgrow="ALWAYS" percentWidth="33"/>
+                    <ColumnConstraints hgrow="ALWAYS" percentWidth="33"/>
+                    <ColumnConstraints hgrow="ALWAYS" percentWidth="33"/>
+                </columnConstraints>
+            </GridPane>
+
+            <Region prefHeight="20"/>
+            <Separator/>
+            <Region prefHeight="16"/>
+
+            <!-- Ingredients -->
+            <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 8 0;">
+                <Label text="Ingredients"
+                       HBox.hgrow="ALWAYS" maxWidth="Infinity"
+                       style="-fx-font-weight: bold; -fx-font-size: 13px;"/>
+                <Button fx:id="addIngredientButton"
+                        style="-fx-background-color: transparent;
+                               -fx-text-fill: #4A90D9;
+                               -fx-font-size: 13px;
+                               -fx-padding: 4 0 4 0;"/>
+            </HBox>
+            <Region prefHeight="24"/>
+            <ListView fx:id="ingredientListView" prefHeight="200"
+                      style="-fx-padding: 0 0 16 0;"/>
+            <Region prefHeight="8"/>
+            <HBox spacing="8" alignment="CENTER_LEFT">
+                <TextField fx:id="newIngredientField"
+                           HBox.hgrow="ALWAYS"
+                           promptText="Enter ingredient (e.g. 2 cups flour)"/>
+                <Button fx:id="addIngredientConfirmButton" text="Add"
+                        style="-fx-background-color: #4A90D9;
+                               -fx-text-fill: white;
+                               -fx-padding: 6 14 6 14;
+                               -fx-background-radius: 6;"/>
+            </HBox>
+
+            <Region prefHeight="20"/>
+            <Separator/>
+            <Region prefHeight="16"/>
+
+            <!-- Steps -->
+            <HBox alignment="CENTER_LEFT" style="-fx-padding: 0 0 8 0;">
+                <Label text="Steps"
+                       HBox.hgrow="ALWAYS" maxWidth="Infinity"
+                       style="-fx-font-weight: bold; -fx-font-size: 13px;"/>
+            </HBox>
+            <Region prefHeight="24"/>
+            <ListView fx:id="stepsListView" prefHeight="240"
+                      style="-fx-padding: 0 0 16 0;"/>
+            <Region prefHeight="8"/>
+            <HBox spacing="8" alignment="CENTER_LEFT">
+                <TextField fx:id="newStepField"
+                           HBox.hgrow="ALWAYS"
+                           promptText="Enter a new step..."/>
+                <Button fx:id="addStepButton" text="Add"
+                        style="-fx-background-color: #4A90D9;
+                               -fx-text-fill: white;
+                               -fx-padding: 6 14 6 14;
+                               -fx-background-radius: 6;"/>
+            </HBox>
+
+        </VBox>
+    </ScrollPane>
+
+</StackPane>

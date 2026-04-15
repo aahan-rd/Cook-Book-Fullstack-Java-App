@@ -1,0 +1,197 @@
+{
+  "id" : "7941b6f0-dbb6-41e2-acb5-e1572920db92",
+  "title" : "SIMPLE SCRAMBLED EGGS",
+  "servings" : {
+    "amount" : 2,
+    "description" : "servings"
+  },
+  "ingredients" : [ {
+    "type" : "measured",
+    "name" : "eggs",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 3.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "milk",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 2.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "butter",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "vague",
+    "name" : "salt",
+    "description" : "to taste",
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "vague",
+    "name" : "pepper",
+    "description" : "to taste",
+    "preparation" : null,
+    "notes" : null
+  } ],
+  "instructions" : [ {
+    "stepNumber" : 1,
+    "text" : "Beat eggs and milk together in a bowl",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "eggs",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 3.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 3.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "milk",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 2.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 2.0,
+        "unit" : "TABLESPOON"
+      }
+    } ]
+  }, {
+    "stepNumber" : 2,
+    "text" : "Melt butter in a pan over medium heat",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "butter",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "TABLESPOON"
+      }
+    } ]
+  }, {
+    "stepNumber" : 3,
+    "text" : "Pour in egg mixture",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "eggs",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 3.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 3.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "milk",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 2.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 2.0,
+        "unit" : "TABLESPOON"
+      }
+    } ]
+  }, {
+    "stepNumber" : 4,
+    "text" : "Stir gently until eggs are set but still moist",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "eggs",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 3.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 3.0,
+        "unit" : "WHOLE"
+      }
+    } ]
+  }, {
+    "stepNumber" : 5,
+    "text" : "Season with salt and pepper",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "vague",
+        "name" : "salt",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : null
+    }, {
+      "ingredient" : {
+        "type" : "vague",
+        "name" : "pepper",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : null
+    } ]
+  }, {
+    "stepNumber" : 6,
+    "text" : "Serve immediately",
+    "ingredientRefs" : [ ]
+  } ],
+  "conversionRules" : [ ]
+}

@@ -1,0 +1,111 @@
+{
+  "id" : "3bcd82fe-c285-4cd7-b9a0-e5cc4b97b7ce",
+  "title" : "Pumpkin Soup",
+  "servings" : null,
+  "ingredients" : [ {
+    "type" : "vague",
+    "name" : "Butter",
+    "description" : null,
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "vague",
+    "name" : "Onions",
+    "description" : null,
+    "preparation" : "sliced",
+    "notes" : null
+  }, {
+    "type" : "vague",
+    "name" : "Garlic",
+    "description" : null,
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "vague",
+    "name" : "Pumpkin",
+    "description" : null,
+    "preparation" : "puree",
+    "notes" : null
+  }, {
+    "type" : "vague",
+    "name" : "Havy Cream",
+    "description" : null,
+    "preparation" : null,
+    "notes" : "Likely misspelling of Heavy Cream"
+  }, {
+    "type" : "vague",
+    "name" : "Salt",
+    "description" : null,
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "vague",
+    "name" : "Papper",
+    "description" : null,
+    "preparation" : null,
+    "notes" : "Likely misspelling of Pepper"
+  } ],
+  "instructions" : [ {
+    "stepNumber" : 1,
+    "text" : "Melt the butter over medium heat, add the sliced onions and cook about 15 min.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "vague",
+        "name" : "Butter",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : null
+    }, {
+      "ingredient" : {
+        "type" : "vague",
+        "name" : "Onions",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : null
+    } ]
+  }, {
+    "stepNumber" : 2,
+    "text" : "Add the garlic to the onions and stir constantly for 1 min.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "vague",
+        "name" : "Garlic",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : null
+    } ]
+  }, {
+    "stepNumber" : 3,
+    "text" : "Turn heat to low and add pumpkin puree and simmer the soup for 20 min.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "vague",
+        "name" : "Pumpkin",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : null
+    } ]
+  }, {
+    "stepNumber" : 4,
+    "text" : "Stir the heavy cream into the soup, serve immediately with warm bread if desired.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "vague",
+        "name" : "Havy Cream",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : null
+    } ]
+  } ],
+  "conversionRules" : [ ]
+}

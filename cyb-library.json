@@ -1,0 +1,1401 @@
+{
+  "collections" : [ {
+    "type" : "personal",
+    "id" : "e784d344-6072-4aa0-a053-52aacef03fec",
+    "title" : "alayna",
+    "recipes" : [ ],
+    "description" : null,
+    "notes" : null,
+    "sourceType" : "PERSONAL"
+  }, {
+    "type" : "personal",
+    "id" : "weeknight-meals",
+    "title" : "Weeknight Meals",
+    "recipes" : [ {
+      "id" : "20df8513-9153-4f39-b485-e35996eeb2a6",
+      "title" : "GUACAMOLE",
+      "servings" : null,
+      "ingredients" : [ {
+        "type" : "vague",
+        "name" : "avocados",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "limes",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "ground cumin",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "ripe plum tomatoes",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "red onion",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "garlic",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "jalapenos",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "fresh cilantro",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      } ],
+      "instructions" : [ {
+        "stepNumber" : 1,
+        "text" : "Put everything in a bowl and mix until you get a guacamole-type consistency. Serve with tortilla chips.",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "avocados",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 4.0,
+              "unit" : "WHOLE"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 4.0,
+            "unit" : "WHOLE"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "limes",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 2.0,
+              "unit" : "WHOLE"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 2.0,
+            "unit" : "WHOLE"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "ground cumin",
+            "quantity" : {
+              "type" : "fractional",
+              "whole" : 0,
+              "numerator" : 1,
+              "denominator" : 2,
+              "unit" : "TEASPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "fractional",
+            "whole" : 0,
+            "numerator" : 1,
+            "denominator" : 2,
+            "unit" : "TEASPOON"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "ripe plum tomatoes",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 2.0,
+              "unit" : "WHOLE"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 2.0,
+            "unit" : "WHOLE"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "red onion",
+            "quantity" : {
+              "type" : "fractional",
+              "whole" : 0,
+              "numerator" : 1,
+              "denominator" : 4,
+              "unit" : "CUP"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "fractional",
+            "whole" : 0,
+            "numerator" : 1,
+            "denominator" : 4,
+            "unit" : "CUP"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "garlic",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 2.0,
+              "unit" : "TEASPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 2.0,
+            "unit" : "TEASPOON"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "jalapenos",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 2.0,
+              "unit" : "WHOLE"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 2.0,
+            "unit" : "WHOLE"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "fresh cilantro",
+            "quantity" : {
+              "type" : "fractional",
+              "whole" : 0,
+              "numerator" : 1,
+              "denominator" : 2,
+              "unit" : "CUP"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "fractional",
+            "whole" : 0,
+            "numerator" : 1,
+            "denominator" : 2,
+            "unit" : "CUP"
+          }
+        } ]
+      }, {
+        "stepNumber" : 2,
+        "text" : "Prepare to be everyone's best friend.",
+        "ingredientRefs" : [ ]
+      }, {
+        "stepNumber" : 3,
+        "text" : "The lime juice is what really makes this recipe stand out, so make sure not to skimp!",
+        "ingredientRefs" : [ ]
+      } ],
+      "conversionRules" : [ ]
+    }, {
+      "id" : "1e02c1ae-1b23-4d52-8788-2f476f825838",
+      "title" : "test recipe",
+      "servings" : null,
+      "ingredients" : [ {
+        "type" : "vague",
+        "name" : "all-purpose flour",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "sugar",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "baking powder",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      } ],
+      "instructions" : [ {
+        "stepNumber" : 1,
+        "text" : "preheat oven",
+        "ingredientRefs" : [ ]
+      }, {
+        "stepNumber" : 2,
+        "text" : "scoop dough into tray",
+        "ingredientRefs" : [ ]
+      } ],
+      "conversionRules" : [ ]
+    } ],
+    "description" : null,
+    "notes" : null,
+    "sourceType" : "PERSONAL"
+  }, {
+    "type" : "personal",
+    "id" : "personal-favorites",
+    "title" : "My Favorites",
+    "recipes" : [ {
+      "id" : "5f9756c3-66fd-4151-aca0-87be9a218306",
+      "title" : "Basic Waffles",
+      "servings" : null,
+      "ingredients" : [ {
+        "type" : "vague",
+        "name" : "all-purpose flour",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "sugar",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "baking powder",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "salt",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "low-fat milk",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "vegetable oil",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "large egg",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      } ],
+      "instructions" : [ ],
+      "conversionRules" : [ ]
+    }, {
+      "id" : "778060cb-f1cf-4ff0-80fa-df1d37361c7b",
+      "title" : "DUMPLINGS (饺子)",
+      "servings" : null,
+      "ingredients" : [ {
+        "type" : "vague",
+        "name" : "ground pork",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "garlic",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "egg",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "Chinese chives",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "soy sauce",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "sesame oil",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "fresh ginger",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "dumpling wrappers",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "vegetable oil",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "water",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      } ],
+      "instructions" : [ ],
+      "conversionRules" : [ ]
+    } ],
+    "description" : null,
+    "notes" : null,
+    "sourceType" : "PERSONAL"
+  }, {
+    "type" : "personal",
+    "id" : "8c4ab3bd-b3b1-4958-8a76-35318731b62a",
+    "title" : "aahan",
+    "recipes" : [ {
+      "id" : "1e02c1ae-1b23-4d52-8788-2f476f825838",
+      "title" : "test recipe",
+      "servings" : null,
+      "ingredients" : [ {
+        "type" : "vague",
+        "name" : "all-purpose flour",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "sugar",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "baking powder",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      } ],
+      "instructions" : [ {
+        "stepNumber" : 1,
+        "text" : "preheat oven",
+        "ingredientRefs" : [ ]
+      }, {
+        "stepNumber" : 2,
+        "text" : "scoop dough into tray",
+        "ingredientRefs" : [ ]
+      } ],
+      "conversionRules" : [ ]
+    }, {
+      "id" : "0e89edce-7c10-422d-b341-876e6c6d8f51",
+      "title" : "Pumpkin Soup",
+      "servings" : null,
+      "ingredients" : [ {
+        "type" : "vague",
+        "name" : "Butter",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "Onions",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "Garlic",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "Pumpkin",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "Heavy Cream",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "Salt",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "Pepper",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      } ],
+      "instructions" : [ {
+        "stepNumber" : 1,
+        "text" : "Melt the butter over medium heat, add the sliced onions and cook about 15 min.",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "Butter",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        }, {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "Onions",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        } ]
+      }, {
+        "stepNumber" : 2,
+        "text" : "Add the garlic to the onions and stir constantly for 1 min.",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "Garlic",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        } ]
+      }, {
+        "stepNumber" : 3,
+        "text" : "Turn heat to low and add pumpkin puree and simmer the soup for 20 min.",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "Pumpkin",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        } ]
+      }, {
+        "stepNumber" : 4,
+        "text" : "Stir the heavy cream into the soup, serve immediately with warm bread if desired.",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "Heavy Cream",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        } ]
+      } ],
+      "conversionRules" : [ ]
+    }, {
+      "id" : "b640d774-7084-4a64-a4c4-6ea2c617fb1d",
+      "title" : "Mapo Tofu (麻婆豆腐)",
+      "servings" : null,
+      "ingredients" : [ {
+        "type" : "vague",
+        "name" : "ground pork",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "soy sauce",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "Shaoxing cooking wine",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "cornstarch",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "white pepper powder",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "spicy doubanjiang (la doubanjiang)",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "dou-chi",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "chopped scallions",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "minced garlic cloves",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "minced ginger",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "chicken broth or water",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "soft tofu",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "Sichuan peppercorns",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "cooking oil",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "steamed rice",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      } ],
+      "instructions" : [ {
+        "stepNumber" : 1,
+        "text" : "Marinade the pork in shaoxing cooking wine, a splash of cooking oil, the soy sauce,",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "ground pork",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 450.0,
+              "unit" : "GRAM"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 450.0,
+            "unit" : "GRAM"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "Shaoxing cooking wine",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 1.0,
+              "unit" : "TABLESPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 1.0,
+            "unit" : "TABLESPOON"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "cooking oil",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "soy sauce",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 1.0,
+              "unit" : "TABLESPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 1.0,
+            "unit" : "TABLESPOON"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "cornstarch",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 1.0,
+              "unit" : "TEASPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 1.0,
+            "unit" : "TEASPOON"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "white pepper powder",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 1.0,
+              "unit" : "TEASPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 1.0,
+            "unit" : "TEASPOON"
+          }
+        } ]
+      }, {
+        "stepNumber" : 2,
+        "text" : "Add cooking oil to a wok and sear the ground pork until browned, chopping it up as it cooks",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "cooking oil",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "ground pork",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 450.0,
+              "unit" : "GRAM"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 450.0,
+            "unit" : "GRAM"
+          }
+        } ]
+      }, {
+        "stepNumber" : 3,
+        "text" : "Add the doubanjiang and let it simmer for about a minute",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "spicy doubanjiang (la doubanjiang)",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 2.0,
+              "unit" : "TABLESPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 2.0,
+            "unit" : "TABLESPOON"
+          }
+        } ]
+      }, {
+        "stepNumber" : 4,
+        "text" : "Add the minced aromatics (ginger, garlic) scallion whites, and dou-chi and cook until fragrant",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "minced ginger",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "minced garlic cloves",
+            "quantity" : {
+              "type" : "range",
+              "min" : 2.0,
+              "max" : 4.0,
+              "unit" : "WHOLE"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "range",
+            "min" : 2.0,
+            "max" : 4.0,
+            "unit" : "WHOLE"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "chopped scallions",
+            "quantity" : {
+              "type" : "range",
+              "min" : 2.0,
+              "max" : 3.0,
+              "unit" : "WHOLE"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "range",
+            "min" : 2.0,
+            "max" : 3.0,
+            "unit" : "WHOLE"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "dou-chi",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 1.0,
+              "unit" : "TEASPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 1.0,
+            "unit" : "TEASPOON"
+          }
+        } ]
+      }, {
+        "stepNumber" : 5,
+        "text" : "Add the stock and a splash of soy sauce, turn up the gas and bring to a boil",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "chicken broth or water",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 400.0,
+              "unit" : "MILLILITER"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 400.0,
+            "unit" : "MILLILITER"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "soy sauce",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        } ]
+      }, {
+        "stepNumber" : 6,
+        "text" : "Add the tofu, lower the gas, and braise for around 15 mins",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "soft tofu",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 340.0,
+              "unit" : "GRAM"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 340.0,
+            "unit" : "GRAM"
+          }
+        } ]
+      }, {
+        "stepNumber" : 7,
+        "text" : "You'll know it's done when the tofu shows their trademark \"pockmarks\" and the seasoning sticks to them",
+        "ingredientRefs" : [ ]
+      }, {
+        "stepNumber" : 8,
+        "text" : "Mix in the crushed Sichuan peppercorns and green parts of the scallions right before serving",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "Sichuan peppercorns",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 1.0,
+              "unit" : "TABLESPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 1.0,
+            "unit" : "TABLESPOON"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "chopped scallions",
+            "quantity" : {
+              "type" : "range",
+              "min" : 2.0,
+              "max" : 3.0,
+              "unit" : "WHOLE"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "range",
+            "min" : 2.0,
+            "max" : 3.0,
+            "unit" : "WHOLE"
+          }
+        } ]
+      }, {
+        "stepNumber" : 9,
+        "text" : "Serve over steamed rice",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "steamed rice",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        } ]
+      } ],
+      "conversionRules" : [ ]
+    }, {
+      "id" : "ff7a8e78-4978-492a-bdb5-12c53a1effc7",
+      "title" : "Mapo Tofu (麻婆豆腐)",
+      "servings" : null,
+      "ingredients" : [ {
+        "type" : "vague",
+        "name" : "ground pork",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "soy sauce",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "Shaoxing cooking wine",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "cornstarch",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "white pepper powder",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "spicy doubanjiang (la doubanjiang)",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "dou-chi",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "chopped scallions",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "minced garlic cloves",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "minced ginger",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "chicken broth or water",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "soft tofu",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "Sichuan peppercorns",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "cooking oil",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "soy sauce",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "steamed rice",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      } ],
+      "instructions" : [ {
+        "stepNumber" : 1,
+        "text" : "Marinade the pork in shaoxing cooking wine, a splash of cooking oil, the soy sauce,",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "ground pork",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 450.0,
+              "unit" : "GRAM"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 450.0,
+            "unit" : "GRAM"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "Shaoxing cooking wine",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 1.0,
+              "unit" : "TABLESPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 1.0,
+            "unit" : "TABLESPOON"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "cooking oil",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "soy sauce",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 1.0,
+              "unit" : "TABLESPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 1.0,
+            "unit" : "TABLESPOON"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "cornstarch",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 1.0,
+              "unit" : "TEASPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 1.0,
+            "unit" : "TEASPOON"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "white pepper powder",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 1.0,
+              "unit" : "TEASPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 1.0,
+            "unit" : "TEASPOON"
+          }
+        } ]
+      }, {
+        "stepNumber" : 2,
+        "text" : "Add cooking oil to a wok and sear the ground pork until browned, chopping it up as it cooks",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "cooking oil",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "ground pork",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 450.0,
+              "unit" : "GRAM"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 450.0,
+            "unit" : "GRAM"
+          }
+        } ]
+      }, {
+        "stepNumber" : 3,
+        "text" : "Add the doubanjiang and let it simmer for about a minute",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "spicy doubanjiang (la doubanjiang)",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 2.0,
+              "unit" : "TABLESPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 2.0,
+            "unit" : "TABLESPOON"
+          }
+        } ]
+      }, {
+        "stepNumber" : 4,
+        "text" : "Add the minced aromatics (ginger, garlic) scallion whites, and dou-chi and cook until fragrant",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "minced ginger",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 2.0,
+              "unit" : "WHOLE"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 2.0,
+            "unit" : "WHOLE"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "minced garlic cloves",
+            "quantity" : {
+              "type" : "range",
+              "min" : 2.0,
+              "max" : 4.0,
+              "unit" : "WHOLE"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "range",
+            "min" : 2.0,
+            "max" : 4.0,
+            "unit" : "WHOLE"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "chopped scallions",
+            "quantity" : {
+              "type" : "range",
+              "min" : 2.0,
+              "max" : 3.0,
+              "unit" : "WHOLE"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "range",
+            "min" : 2.0,
+            "max" : 3.0,
+            "unit" : "WHOLE"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "dou-chi",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 1.0,
+              "unit" : "TEASPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 1.0,
+            "unit" : "TEASPOON"
+          }
+        } ]
+      }, {
+        "stepNumber" : 5,
+        "text" : "Add the stock and a splash of soy sauce, turn up the gas and bring to a boil",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "chicken broth or water",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 400.0,
+              "unit" : "MILLILITER"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 400.0,
+            "unit" : "MILLILITER"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "soy sauce",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        } ]
+      }, {
+        "stepNumber" : 6,
+        "text" : "Add the tofu, lower the gas, and braise for around 15 mins",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "soft tofu",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 340.0,
+              "unit" : "GRAM"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 340.0,
+            "unit" : "GRAM"
+          }
+        } ]
+      }, {
+        "stepNumber" : 7,
+        "text" : "You'll know it's done when the tofu shows their trademark \"pockmarks\" and the seasoning sticks to them",
+        "ingredientRefs" : [ ]
+      }, {
+        "stepNumber" : 8,
+        "text" : "Mix in the crushed Sichuan peppercorns and green parts of the scallions right before serving",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "Sichuan peppercorns",
+            "quantity" : {
+              "type" : "exact",
+              "amount" : 1.0,
+              "unit" : "TABLESPOON"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "exact",
+            "amount" : 1.0,
+            "unit" : "TABLESPOON"
+          }
+        }, {
+          "ingredient" : {
+            "type" : "measured",
+            "name" : "chopped scallions",
+            "quantity" : {
+              "type" : "range",
+              "min" : 2.0,
+              "max" : 3.0,
+              "unit" : "WHOLE"
+            },
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : {
+            "type" : "range",
+            "min" : 2.0,
+            "max" : 3.0,
+            "unit" : "WHOLE"
+          }
+        } ]
+      }, {
+        "stepNumber" : 9,
+        "text" : "Serve over steamed rice",
+        "ingredientRefs" : [ {
+          "ingredient" : {
+            "type" : "vague",
+            "name" : "steamed rice",
+            "description" : null,
+            "preparation" : null,
+            "notes" : null
+          },
+          "quantity" : null
+        } ]
+      } ],
+      "conversionRules" : [ ]
+    } ],
+    "description" : null,
+    "notes" : null,
+    "sourceType" : "PERSONAL"
+  } ],
+  "houseConversions" : [ ]
+}

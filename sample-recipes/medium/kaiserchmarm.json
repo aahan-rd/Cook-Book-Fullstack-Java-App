@@ -1,0 +1,220 @@
+{
+  "id" : "b99d5f4d-dd2b-433c-8bf5-4c6587fa49cd",
+  "title" : "Kaiserschmarm",
+  "servings" : null,
+  "ingredients" : [ {
+    "type" : "measured",
+    "name" : "eggs",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 6.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : "separated",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "sugar",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 3.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "milk",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 350.0,
+      "unit" : "MILLILITER"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "vanilla extract",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "TEASPOON"
+    },
+    "preparation" : null,
+    "notes" : "optional"
+  }, {
+    "type" : "measured",
+    "name" : "flour",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 130.0,
+      "unit" : "GRAM"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "salt",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "PINCH"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "butter",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 2.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : "for frying the pancake (not the batter)"
+  } ],
+  "instructions" : [ {
+    "stepNumber" : 1,
+    "text" : "In a large bowl, combine egg whites and sugar.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "eggs",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 6.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 6.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "sugar",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 3.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 3.0,
+        "unit" : "TABLESPOON"
+      }
+    } ]
+  }, {
+    "stepNumber" : 2,
+    "text" : "In another large bowl, comine egg yokes, milk, and vanilla extract.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "eggs",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 6.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 6.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "milk",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 350.0,
+          "unit" : "MILLILITER"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 350.0,
+        "unit" : "MILLILITER"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "vanilla extract",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "TEASPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "TEASPOON"
+      }
+    } ]
+  }, {
+    "stepNumber" : 3,
+    "text" : "Gently combine both bowls.",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 4,
+    "text" : "Get a cooking pan for the stove and have it on medium heat",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 5,
+    "text" : "Melt 5 tablespoons of butter on the pan",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "butter",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 5.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 5.0,
+        "unit" : "TABLESPOON"
+      }
+    } ]
+  }, {
+    "stepNumber" : 6,
+    "text" : "Pour in around half the batter and wait to flip until it starts to bubble like a pancake.",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 7,
+    "text" : "When you flip, the Kaiserschmarm should be golden brown.",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 8,
+    "text" : "Take Kaiserschmarm off the stove when it is cooked all the way through.",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 9,
+    "text" : "repeat steps 6-8 with the remaining batter",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 10,
+    "text" : "cut Kaiserchmarm into bite-sized pieces, add toppings, and enjoy!",
+    "ingredientRefs" : [ ]
+  } ],
+  "conversionRules" : [ ]
+}

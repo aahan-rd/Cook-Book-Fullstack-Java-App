@@ -1,0 +1,123 @@
+/*
+ * Shared styles for CookYourBooks.
+ *
+ * Extend this file with your team's theming. The provided styles cover
+ * the main layout (sidebar + content area). Add styles for your feature
+ * views as needed.
+ */
+
+/* ── Root ── */
+.root-pane {
+    -fx-background-color: #f5f5f5;
+}
+
+/* ── Sidebar ── */
+.sidebar {
+    -fx-background-color: #2c3e50;
+    -fx-pref-width: 180;
+    -fx-min-width: 180;
+}
+
+.sidebar-title {
+    -fx-text-fill: white;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 12 4;
+}
+
+/* ── Navigation buttons ── */
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bdc3c7;
+    -fx-font-size: 13;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 8 12;
+    -fx-cursor: hand;
+    -fx-background-radius: 4;
+}
+
+.nav-button:hover {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+}
+
+.nav-button.nav-active {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* ── Content area ── */
+.content-area {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.08), 8, 0, 0, 2);
+}
+
+/* ── Common controls (for feature views to use) ── */
+.section-title {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+.status-label {
+    -fx-text-fill: #7f8c8d;
+    -fx-font-size: 12;
+}
+
+.error-label {
+    -fx-text-fill: #e74c3c;
+    -fx-font-size: 12;
+}
+
+.success-label {
+    -fx-text-fill: #27ae60;
+    -fx-font-size: 12;
+}
+
+/* ── Collection Cards ── */
+.card-title {
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.card-subtitle {
+    -fx-font-size: 11;
+    -fx-text-fill: #7f8c8d;
+}
+
+.card-content {
+    -fx-spacing: 2;
+}
+
+.collection-card {
+    -fx-padding: 8 12;
+    -fx-min-height: 60;
+    -fx-pref-height: 90;
+}
+
+.collection-card-wrapper {
+    -fx-padding: 0;
+}
+
+.collection-delete-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #c0392b;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 2 8;
+    -fx-cursor: hand;
+}
+
+.collection-delete-button:hover {
+    -fx-background-color: #fcebea;
+}
+
+.undo-bar {
+    -fx-background-color: #f6f8fa;
+    -fx-border-color: #d0d7de;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 8;
+}

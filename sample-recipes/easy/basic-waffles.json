@@ -1,0 +1,219 @@
+{
+  "id" : "54398149-b0ad-4e19-b3b4-45b9cb9bf00b",
+  "title" : "Basic Waffles",
+  "servings" : null,
+  "ingredients" : [ {
+    "type" : "measured",
+    "name" : "all-purpose flour",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "CUP"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "sugar",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "baking powder",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 0.5,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "salt",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 0.25,
+      "unit" : "TEASPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "low-fat milk",
+    "quantity" : {
+      "type" : "fractional",
+      "whole" : 0,
+      "numerator" : 7,
+      "denominator" : 8,
+      "unit" : "CUP"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "vegetable oil",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 3.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "large egg",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : null,
+    "notes" : null
+  } ],
+  "instructions" : [ {
+    "stepNumber" : 1,
+    "text" : "Combine and mix all ingredients.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "all-purpose flour",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "CUP"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "CUP"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "sugar",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "TABLESPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "baking powder",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 0.5,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 0.5,
+        "unit" : "TABLESPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "salt",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 0.25,
+          "unit" : "TEASPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 0.25,
+        "unit" : "TEASPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "low-fat milk",
+        "quantity" : {
+          "type" : "fractional",
+          "whole" : 0,
+          "numerator" : 7,
+          "denominator" : 8,
+          "unit" : "CUP"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "fractional",
+        "whole" : 0,
+        "numerator" : 7,
+        "denominator" : 8,
+        "unit" : "CUP"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "vegetable oil",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 3.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 3.0,
+        "unit" : "TABLESPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "large egg",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "WHOLE"
+      }
+    } ]
+  }, {
+    "stepNumber" : 2,
+    "text" : "Let batter sit for 5 minutes while the waffle iron is preheating.",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 3,
+    "text" : "Add one-half cup of batter at a time, or whatever is recommended for your waffle iron.",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 4,
+    "text" : "Cook until desired crispness.",
+    "ingredientRefs" : [ ]
+  } ],
+  "conversionRules" : [ ]
+}

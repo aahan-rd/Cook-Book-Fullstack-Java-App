@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+    "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+    "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+
+<suppressions>
+    <!-- Suppress ParameterNumber for Jackson deserialization constructors -->
+    <suppress checks="ParameterNumber"
+             files="Cookbook\.java"
+             lines="62"/>
+    <suppress checks="ParameterNumber"
+             files="Recipe\.java"
+             lines="53"/>
+    <!-- Suppress MethodLength for test utility method with multiple recipe definitions -->
+    <suppress checks="MethodLength"
+             files="TestRecipeImageGenerator\.java"
+             lines="267"/>
+    <!-- Suppress HideUtilityClassConstructor for JUnit 5 test classes using @Nested pattern -->
+    <suppress checks="HideUtilityClassConstructor"
+             files=".*Test\.java"/>
+    <!-- Allow underscore convention in test method names (e.g. cookMode_navigatesWithNext) -->
+    <suppress checks="MethodName"
+             files=".*Tests?\.java"/>
+    <!-- Suppress all checks for mutant classes (manual mutants for mutation testing) -->
+    <suppress checks=".*"
+             files=".*_(CG|CI|SC|ST|CV)[0-9]+.*\.java"/>
+    <suppress checks=".*"
+             files=".*_(T|J|S|C|G|F|M)[0-9]+.*\.java"/>
+</suppressions>

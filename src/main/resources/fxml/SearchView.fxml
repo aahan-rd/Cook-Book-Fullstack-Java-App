@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Priority?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="app.cookyourbooks.gui.view.SearchViewController"
+      spacing="10"
+      styleClass="feature-root">
+    <padding>
+        <Insets top="12" right="12" bottom="12" left="12"/>
+    </padding>
+
+    <Label text="Search &amp; Filter" styleClass="feature-title"/>
+
+    <!-- Query search with search button -->
+    <HBox spacing="8">
+        <TextField fx:id="queryField" promptText="Search by anything..." HBox.hgrow="ALWAYS"/>
+        <Button fx:id="searchButton" text="Search"/>
+    </HBox>
+
+   <!-- Ingredient filters -->
+<Label text="Ingredient Filters"/>
+<HBox spacing="8">
+    <ComboBox fx:id="ingredientComboBox" promptText="Select ingredient..." HBox.hgrow="ALWAYS"/>
+    <Button fx:id="addIngredientButton" text="Add"/>
+    <Button fx:id="clearFiltersButton" text="Clear"/>
+</HBox>
+<javafx.scene.layout.FlowPane fx:id="ingredientFiltersList" minHeight="40" prefHeight="80" maxHeight="150" hgap="6" vgap="6" style="-fx-border-color: #e0e0e0; -fx-border-radius: 4; -fx-padding: 6;"/>
+
+<!-- Collection/Tag filters -->
+<Label text="Collection/Tag Filters"/>
+<HBox spacing="8">
+    <ComboBox fx:id="collectionComboBox" promptText="Select collection..." HBox.hgrow="ALWAYS"/>
+    <Button fx:id="addCollectionButton" text="Add"/>
+    <Button fx:id="clearCollectionButton" text="Clear"/>
+</HBox>
+<javafx.scene.layout.FlowPane fx:id="collectionFiltersList" minHeight="40" prefHeight="80" maxHeight="150" hgap="6" vgap="6" style="-fx-border-color: #e0e0e0; -fx-border-radius: 4; -fx-padding: 6;"/>
+
+    <HBox spacing="8" alignment="CENTER_LEFT">
+        <Label fx:id="statusLabel" text=""/>
+        <ProgressIndicator fx:id="loadingSpinner" prefWidth="18" prefHeight="18"/>
+    </HBox>
+
+    <Label text="Results"/>
+    <ListView fx:id="resultsList" VBox.vgrow="ALWAYS"/>
+</VBox>

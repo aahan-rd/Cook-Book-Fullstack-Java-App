@@ -1,0 +1,324 @@
+{
+  "id" : "3af05faa-ac5d-44d5-8886-da0ffa7ef905",
+  "title" : "DUMPLINGS (饺子)",
+  "servings" : {
+    "amount" : 50,
+    "description" : "servings"
+  },
+  "ingredients" : [ {
+    "type" : "measured",
+    "name" : "ground pork",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "POUND"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "garlic",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 3.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : "minced",
+    "notes" : "cloves"
+  }, {
+    "type" : "measured",
+    "name" : "large egg",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : "beaten",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "Chinese chives",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 2.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : "finely chopped",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "soy sauce",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 2.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "sesame oil",
+    "quantity" : {
+      "type" : "fractional",
+      "whole" : 0,
+      "numerator" : 1,
+      "denominator" : 2,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "fresh ginger",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : "minced",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "dumpling wrappers",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 50.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "vegetable oil",
+    "quantity" : {
+      "type" : "fractional",
+      "whole" : 0,
+      "numerator" : 1,
+      "denominator" : 2,
+      "unit" : "CUP"
+    },
+    "preparation" : null,
+    "notes" : "for frying"
+  }, {
+    "type" : "vague",
+    "name" : "water",
+    "description" : "for sealing",
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "water",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "CUP"
+    },
+    "preparation" : null,
+    "notes" : "for cooking"
+  } ],
+  "instructions" : [ {
+    "stepNumber" : 1,
+    "text" : "Mix pork, garlic, egg, chives, soy sauce, sesame oil, and ginger in a large bowl until thoroughly combined.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "ground pork",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "POUND"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "POUND"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "garlic",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 3.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 3.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "large egg",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "Chinese chives",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 2.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 2.0,
+        "unit" : "TABLESPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "soy sauce",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 2.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 2.0,
+        "unit" : "TABLESPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "sesame oil",
+        "quantity" : {
+          "type" : "fractional",
+          "whole" : 0,
+          "numerator" : 1,
+          "denominator" : 2,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "fractional",
+        "whole" : 0,
+        "numerator" : 1,
+        "denominator" : 2,
+        "unit" : "TABLESPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "fresh ginger",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "TABLESPOON"
+      }
+    } ]
+  }, {
+    "stepNumber" : 2,
+    "text" : "Place 1 tablespoon of the filling in the middle of dumpling wrapper. Wet the edge with water and crimp together to seal the dumpling.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "dumpling wrappers",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 50.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 50.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "vague",
+        "name" : "water",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : null
+    } ]
+  }, {
+    "stepNumber" : 3,
+    "text" : "Heat vegetable oil. Cook dumplings until browned.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "vegetable oil",
+        "quantity" : {
+          "type" : "fractional",
+          "whole" : 0,
+          "numerator" : 1,
+          "denominator" : 2,
+          "unit" : "CUP"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "fractional",
+        "whole" : 0,
+        "numerator" : 1,
+        "denominator" : 2,
+        "unit" : "CUP"
+      }
+    } ]
+  }, {
+    "stepNumber" : 4,
+    "text" : "Pour in 1 cup of water. Cover & cook until tender.",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "water",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "CUP"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "CUP"
+      }
+    } ]
+  } ],
+  "conversionRules" : [ ]
+}

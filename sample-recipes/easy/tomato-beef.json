@@ -1,0 +1,276 @@
+{
+  "id" : "acba66bf-2e26-40bf-8603-5986bca5558a",
+  "title" : "Tomato Beef Recipe",
+  "servings" : null,
+  "ingredients" : [ {
+    "type" : "measured",
+    "name" : "beef",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "POUND"
+    },
+    "preparation" : "sliced thin",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "tomatoes",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 3.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : "cut into wedges",
+    "notes" : "medium"
+  }, {
+    "type" : "measured",
+    "name" : "onion",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : "sliced",
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "garlic",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 3.0,
+      "unit" : "WHOLE"
+    },
+    "preparation" : "minced",
+    "notes" : "cloves"
+  }, {
+    "type" : "measured",
+    "name" : "soy sauce",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 2.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "sugar",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 1.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "vague",
+    "name" : "salt",
+    "description" : "to taste",
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "vague",
+    "name" : "pepper",
+    "description" : "to taste",
+    "preparation" : null,
+    "notes" : null
+  }, {
+    "type" : "measured",
+    "name" : "oil",
+    "quantity" : {
+      "type" : "exact",
+      "amount" : 2.0,
+      "unit" : "TABLESPOON"
+    },
+    "preparation" : null,
+    "notes" : null
+  } ],
+  "instructions" : [ {
+    "stepNumber" : 1,
+    "text" : "Heat oil in a pan over high heat",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "oil",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 2.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 2.0,
+        "unit" : "TABLESPOON"
+      }
+    } ]
+  }, {
+    "stepNumber" : 2,
+    "text" : "Stir-fry beef until browned, remove and set aside",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "beef",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "POUND"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "POUND"
+      }
+    } ]
+  }, {
+    "stepNumber" : 3,
+    "text" : "Add garlic and onion, cook until fragrant",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "garlic",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 3.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 3.0,
+        "unit" : "WHOLE"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "onion",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "WHOLE"
+      }
+    } ]
+  }, {
+    "stepNumber" : 4,
+    "text" : "Add tomatoes, cook until they start to break down (3-4 minutes)",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "tomatoes",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 3.0,
+          "unit" : "WHOLE"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 3.0,
+        "unit" : "WHOLE"
+      }
+    } ]
+  }, {
+    "stepNumber" : 5,
+    "text" : "Return beef to pan",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "beef",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "POUND"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "POUND"
+      }
+    } ]
+  }, {
+    "stepNumber" : 6,
+    "text" : "Add soy sauce, sugar, salt and pepper",
+    "ingredientRefs" : [ {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "soy sauce",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 2.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 2.0,
+        "unit" : "TABLESPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "measured",
+        "name" : "sugar",
+        "quantity" : {
+          "type" : "exact",
+          "amount" : 1.0,
+          "unit" : "TABLESPOON"
+        },
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : {
+        "type" : "exact",
+        "amount" : 1.0,
+        "unit" : "TABLESPOON"
+      }
+    }, {
+      "ingredient" : {
+        "type" : "vague",
+        "name" : "salt",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : null
+    }, {
+      "ingredient" : {
+        "type" : "vague",
+        "name" : "pepper",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      },
+      "quantity" : null
+    } ]
+  }, {
+    "stepNumber" : 7,
+    "text" : "Stir everything together for 2 minutes",
+    "ingredientRefs" : [ ]
+  }, {
+    "stepNumber" : 8,
+    "text" : "Serve hot with rice",
+    "ingredientRefs" : [ ]
+  } ],
+  "conversionRules" : [ ]
+}

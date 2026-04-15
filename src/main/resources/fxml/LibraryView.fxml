@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Priority?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="root"
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="app.cookyourbooks.gui.view.LibraryViewController"
+    styleClass="library-root"
+    prefWidth="900"
+    prefHeight="620">
+
+    <padding>
+        <Insets top="12" right="12" bottom="12" left="12" />
+    </padding>
+
+    <center>
+        <StackPane>
+            <HBox spacing="12">
+                <padding>
+                    <Insets top="8" right="8" bottom="8" left="8" />
+                </padding>
+
+                <VBox spacing="10" styleClass="library-panel collections-panel" prefWidth="300"
+                    minWidth="300" maxWidth="300">
+                    <Label text="Collections" styleClass="section-title" />
+
+                    <HBox spacing="8" alignment="CENTER_LEFT">
+                        <Button fx:id="newCollectionButton"
+                            text="+"
+                            prefWidth="36"
+                            prefHeight="36"
+                            styleClass="icon-button"
+                            accessibleText="Create new collection" />
+                        <TextField fx:id="queryField"
+                            promptText="Search collections"
+                            HBox.hgrow="ALWAYS"
+                            accessibleText="Search collections" />
+                        <Button fx:id="searchButton"
+                            text="Search"
+                            styleClass="secondary-button"
+                            accessibleText="Run search" />
+                        <Button fx:id="filterButton"
+                            text="Filter"
+                            styleClass="secondary-button"
+                            accessibleText="Filter collections" />
+                    </HBox>
+
+                    <ScrollPane fx:id="collectionsScrollPane"
+                        fitToWidth="true"
+                        hbarPolicy="NEVER"
+                        vbarPolicy="AS_NEEDED"
+                        VBox.vgrow="ALWAYS"
+                        styleClass="card-scroll-pane"
+                        accessibleText="Recipe collections">
+                        <content>
+                            <VBox fx:id="collectionsContainer"
+                                spacing="12"
+                                fillWidth="true"
+                                styleClass="card-grid collections-grid" />
+                        </content>
+                    </ScrollPane>
+
+                    <HBox fx:id="undoBar"
+                        spacing="8"
+                        alignment="CENTER_LEFT"
+                        visible="false"
+                        managed="false"
+                        styleClass="undo-bar"
+                        accessibleText="Collection delete undo">
+                        <Label fx:id="undoMessageLabel"
+                            text=""
+                            styleClass="status-label" />
+                        <HBox HBox.hgrow="ALWAYS" />
+                        <Button fx:id="undoButton"
+                            text="Undo"
+                            styleClass="secondary-button"
+                            accessibleText="Undo delete collection" />
+                    </HBox>
+                </VBox>
+
+                <Separator orientation="VERTICAL"
+                    style="-fx-background-color: rgba(209,213,219,0.45); "
+                    prefWidth="0.1"
+                    maxWidth="0.1"
+                    HBox.hgrow="NEVER" />
+
+                <VBox spacing="10" styleClass="library-panel recipes-panel" prefWidth="460"
+                    HBox.hgrow="ALWAYS">
+                    <HBox spacing="8" alignment="CENTER_LEFT">
+                        <Label fx:id="recipesSectionTitleLabel" text="All Recipes"
+                            styleClass="section-title" />
+                        <Separator orientation="VERTICAL" />
+                        <Label fx:id="recipeCountLabel" text="0 recipes" styleClass="status-label" />
+                        <HBox HBox.hgrow="ALWAYS" />
+                        <Button fx:id="recipeOptionsButton"
+                            text="⋯"
+                            styleClass="icon-button"
+                            focusTraversable="false"
+                            accessibleText="Recipe options" />
+                    </HBox>
+
+                    <HBox spacing="8" alignment="CENTER_LEFT">
+                        <TextField fx:id="recipeQueryField"
+                            promptText="Search recipes"
+                            HBox.hgrow="ALWAYS"
+                            accessibleText="Search recipes" />
+                        <Button fx:id="recipeSearchButton"
+                            text="Search"
+                            styleClass="secondary-button"
+                            accessibleText="Run search" />
+                        <Button fx:id="recipeFilterButton"
+                            text="Filter"
+                            styleClass="secondary-button"
+                            accessibleText="Filter recipes" />
+                    </HBox>
+
+                    <StackPane VBox.vgrow="ALWAYS">
+                        <ListView fx:id="recipesListView"
+                            accessibleText="Recipes in selected collection" />
+
+                        <Label fx:id="emptyStateLabel"
+                            text="Select a collection to view recipes"
+                            styleClass="status-label empty-state-label"
+                            visible="true"
+                            managed="true" />
+                    </StackPane>
+
+                    <Label fx:id="liveRegionLabel"
+                        text=""
+                        styleClass="sr-live-region"
+                        wrapText="true"
+                        minHeight="1"
+                        prefHeight="1"
+                        maxHeight="1"
+                        accessibleText="Live updates" />
+                </VBox>
+            </HBox>
+
+        </StackPane>
+    </center>
+
+</BorderPane>
