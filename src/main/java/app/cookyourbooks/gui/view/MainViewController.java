@@ -2,7 +2,6 @@ package app.cookyourbooks.gui.view;
 
 import java.util.EnumMap;
 import java.util.Map;
-import java.util.prefs.Preferences;
 
 import javafx.fxml.FXML;
 import javafx.scene.Node;
@@ -13,6 +12,7 @@ import javafx.scene.layout.StackPane;
 
 import app.cookyourbooks.gui.NavigationService;
 import app.cookyourbooks.gui.NavigationService.View;
+import app.cookyourbooks.gui.darkmode.DarkMode;
 
 /**
  * Controller for the main application layout ({@code MainView.fxml}).
@@ -34,9 +34,6 @@ import app.cookyourbooks.gui.NavigationService.View;
     "NullAway.Init") // FXML fields are injected by the FXMLLoader, not the constructor
 public class MainViewController {
 
-  private static final String DARK_MODE_CLASS = "dark-mode";
-  private static final String PREF_KEY_DARK_MODE = "darkModeEnabled";
-
   @FXML private BorderPane rootPane;
   @FXML private StackPane contentArea;
   @FXML private Button libraryButton;
@@ -47,8 +44,7 @@ public class MainViewController {
 
   private final NavigationService navigationService;
   private final Map<View, Node> viewNodes = new EnumMap<>(View.class);
-  private final Preferences preferences = Preferences.userNodeForPackage(MainViewController.class);
-  private boolean darkModeEnabled;
+  private DarkMode darkMode;
 
   /**
    * Constructs the main view controller.
@@ -80,10 +76,10 @@ public class MainViewController {
     editorButton.setOnAction(e -> navigationService.navigateTo(View.RECIPE_EDITOR));
     importButton.setOnAction(e -> navigationService.navigateTo(View.IMPORT));
     searchButton.setOnAction(e -> navigationService.navigateTo(View.SEARCH));
-    themeToggleButton.setOnAction(e -> toggleTheme());
 
-    darkModeEnabled = preferences.getBoolean(PREF_KEY_DARK_MODE, false);
-    applyTheme(darkModeEnabled);
+    darkMode = new DarkMode(rootPane, themeToggleButton);
+    darkMode.initialize();
+    themeToggleButton.setOnAction(e -> darkMode.toggle());
 
     // Listen for navigation changes and swap the content area
     navigationService
@@ -92,24 +88,6 @@ public class MainViewController {
 
     // Show the initial view
     showView(navigationService.getCurrentView());
-  }
-
-  private void toggleTheme() {
-    darkModeEnabled = !darkModeEnabled;
-    applyTheme(darkModeEnabled);
-    preferences.putBoolean(PREF_KEY_DARK_MODE, darkModeEnabled);
-  }
-
-  private void applyTheme(boolean darkMode) {
-    if (darkMode) {
-      if (!rootPane.getStyleClass().contains(DARK_MODE_CLASS)) {
-        rootPane.getStyleClass().add(DARK_MODE_CLASS);
-      }
-      themeToggleButton.setText("Switch to Light");
-    } else {
-      rootPane.getStyleClass().remove(DARK_MODE_CLASS);
-      themeToggleButton.setText("Switch to Dark");
-    }
   }
 
   private void showView(View view) {
