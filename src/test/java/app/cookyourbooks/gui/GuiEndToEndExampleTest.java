@@ -10,6 +10,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.input.KeyCode;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 import org.junit.jupiter.api.Test;
@@ -104,6 +105,23 @@ class GuiEndToEndExampleTest {
 
     Button searchBtn = robot.lookup("#searchButton").queryAs(Button.class);
     assertThat(searchBtn.getText()).isEqualTo("Search");
+  }
+
+  @Test
+  void themeToggleAppliesDarkModeClass(FxRobot robot) {
+    Button toggle = robot.lookup("#themeToggleButton").queryAs(Button.class);
+    BorderPane root = robot.lookup("#rootPane").queryAs(BorderPane.class);
+
+    boolean startedDark = root.getStyleClass().contains("dark-mode");
+    String startText = toggle.getText();
+
+    robot.clickOn("#themeToggleButton");
+
+    boolean toggledDark = root.getStyleClass().contains("dark-mode");
+    String toggledText = toggle.getText();
+
+    assertThat(toggledDark).isNotEqualTo(startedDark);
+    assertThat(toggledText).isNotEqualTo(startText);
   }
 
   private static String titleOf(Object item) {

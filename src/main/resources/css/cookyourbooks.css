@@ -11,6 +11,22 @@
     -fx-background-color: #f5f5f5;
 }
 
+.theme-toggle-button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #1f2937;
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-padding: 8 12;
+    -fx-background-radius: 16;
+    -fx-border-radius: 16;
+    -fx-border-color: #d1d5db;
+    -fx-cursor: hand;
+}
+
+.theme-toggle-button:hover {
+    -fx-background-color: #f3f4f6;
+}
+
 /* ── Sidebar ── */
 .sidebar {
     -fx-background-color: #2c3e50;
@@ -120,4 +136,121 @@
     -fx-border-radius: 6;
     -fx-background-radius: 6;
     -fx-padding: 8;
+}
+
+/* ── Dark Mode ── */
+.root-pane.dark-mode {
+    -fx-background-color: #0f172a;
+}
+
+.root-pane.dark-mode .sidebar {
+    -fx-background-color: #111827;
+}
+
+.root-pane.dark-mode .sidebar-title {
+    -fx-text-fill: #e5e7eb;
+}
+
+.root-pane.dark-mode .nav-button {
+    -fx-text-fill: #cbd5e1;
+}
+
+.root-pane.dark-mode .nav-button:hover {
+    -fx-background-color: #1f2937;
+    -fx-text-fill: #f9fafb;
+}
+
+.root-pane.dark-mode .nav-button.nav-active {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: #ffffff;
+}
+
+.root-pane.dark-mode .content-area {
+    -fx-background-color: #1e293b;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 2);
+}
+
+.root-pane.dark-mode .label {
+    -fx-text-fill: #e5e7eb;
+}
+
+.root-pane.dark-mode .section-title {
+    -fx-text-fill: #f8fafc;
+}
+
+.root-pane.dark-mode .status-label,
+.root-pane.dark-mode .card-subtitle {
+    -fx-text-fill: #94a3b8;
+}
+
+.root-pane.dark-mode .card-title {
+    -fx-text-fill: #f1f5f9;
+}
+
+.root-pane.dark-mode .button {
+    -fx-background-color: #334155;
+    -fx-text-fill: #f8fafc;
+}
+
+.root-pane.dark-mode .button:hover {
+    -fx-background-color: #475569;
+}
+
+.root-pane.dark-mode .theme-toggle-button {
+    -fx-background-color: #0b1220;
+    -fx-text-fill: #e2e8f0;
+    -fx-border-color: #334155;
+}
+
+.root-pane.dark-mode .theme-toggle-button:hover {
+    -fx-background-color: #1e293b;
+}
+
+.root-pane.dark-mode .text-field,
+.root-pane.dark-mode .text-area,
+.root-pane.dark-mode .combo-box,
+.root-pane.dark-mode .choice-box,
+.root-pane.dark-mode .date-picker,
+.root-pane.dark-mode .spinner,
+.root-pane.dark-mode .list-view,
+.root-pane.dark-mode .table-view,
+.root-pane.dark-mode .tree-view {
+    -fx-background-color: #0f172a;
+    -fx-control-inner-background: #0f172a;
+    -fx-text-fill: #e2e8f0;
+    -fx-border-color: #334155;
+}
+
+.root-pane.dark-mode .list-cell,
+.root-pane.dark-mode .table-row-cell,
+.root-pane.dark-mode .tree-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #e2e8f0;
+}
+
+.root-pane.dark-mode .list-cell:filled:selected,
+.root-pane.dark-mode .table-row-cell:selected,
+.root-pane.dark-mode .tree-cell:selected {
+    -fx-background-color: #1d4ed8;
+    -fx-text-fill: white;
+}
+
+.root-pane.dark-mode .scroll-pane,
+.root-pane.dark-mode .split-pane,
+.root-pane.dark-mode .titled-pane,
+.root-pane.dark-mode .accordion {
+    -fx-background-color: #1e293b;
+}
+
+.root-pane.dark-mode .collection-delete-button {
+    -fx-text-fill: #fca5a5;
+}
+
+.root-pane.dark-mode .collection-delete-button:hover {
+    -fx-background-color: #3f1d1d;
+}
+
+.root-pane.dark-mode .undo-bar {
+    -fx-background-color: #1f2937;
+    -fx-border-color: #374151;
 }
