@@ -80,6 +80,7 @@ public class RecipeEditorViewController {
   @FXML private ListView<EditableIngredient> ingredientListView;
   @FXML private TextField newIngredientField;
   @FXML private Button addIngredientButton;
+  @FXML private Button addIngredientConfirmButton;
   @FXML private Button saveButton;
   @FXML private Button discardButton;
   @FXML private ListView<String> stepsListView;
@@ -357,6 +358,8 @@ public class RecipeEditorViewController {
     addIngredientButton.disableProperty().bind(viewModel.isSavingProperty());
     addIngredientButton.setOnAction(e -> addIngredientFromField());
     newIngredientField.setOnAction(e -> addIngredientFromField());
+    addIngredientConfirmButton.disableProperty().bind(viewModel.isSavingProperty());
+    addIngredientConfirmButton.setOnAction(e -> addIngredientFromField());
 
     // Steps list — backed by local editableSteps, not the ViewModel
     stepsListView.setItems(editableSteps);

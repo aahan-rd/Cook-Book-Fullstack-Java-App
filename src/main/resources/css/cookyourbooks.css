@@ -1,30 +1,13 @@
 /*
  * Shared styles for CookYourBooks.
  *
- * Extend this file with your team's theming. The provided styles cover
- * the main layout (sidebar + content area). Add styles for your feature
- * views as needed.
+ * Covers the main layout (sidebar + content area) and dark mode theming.
+ * Feature-specific styles should be added in their respective sections below.
  */
 
 /* ── Root ── */
 .root-pane {
     -fx-background-color: #f5f5f5;
-}
-
-.theme-toggle-button {
-    -fx-background-color: #ffffff;
-    -fx-text-fill: #1f2937;
-    -fx-font-size: 12;
-    -fx-font-weight: bold;
-    -fx-padding: 8 12;
-    -fx-background-radius: 16;
-    -fx-border-radius: 16;
-    -fx-border-color: #d1d5db;
-    -fx-cursor: hand;
-}
-
-.theme-toggle-button:hover {
-    -fx-background-color: #f3f4f6;
 }
 
 /* ── Sidebar ── */
@@ -63,6 +46,24 @@
     -fx-font-weight: bold;
 }
 
+/* ── Theme toggle button (lives in sidebar) ── */
+.theme-toggle-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bdc3c7;
+    -fx-font-size: 12;
+    -fx-font-weight: normal;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 8 12;
+    -fx-cursor: hand;
+    -fx-background-radius: 4;
+    -fx-border-color: transparent;
+}
+
+.theme-toggle-button:hover {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+}
+
 /* ── Content area ── */
 .content-area {
     -fx-background-color: white;
@@ -70,7 +71,7 @@
     -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.08), 8, 0, 0, 2);
 }
 
-/* ── Common controls (for feature views to use) ── */
+/* ── Common controls ── */
 .section-title {
     -fx-font-size: 18;
     -fx-font-weight: bold;
@@ -138,11 +139,16 @@
     -fx-padding: 8;
 }
 
-/* ── Dark Mode ── */
+/* ══════════════════════════════════════
+   DARK MODE
+   ══════════════════════════════════════ */
+
+/* ── Root ── */
 .root-pane.dark-mode {
     -fx-background-color: #0f172a;
 }
 
+/* ── Sidebar ── */
 .root-pane.dark-mode .sidebar {
     -fx-background-color: #111827;
 }
@@ -151,6 +157,7 @@
     -fx-text-fill: #e5e7eb;
 }
 
+/* ── Nav buttons ── */
 .root-pane.dark-mode .nav-button {
     -fx-text-fill: #cbd5e1;
 }
@@ -165,11 +172,25 @@
     -fx-text-fill: #ffffff;
 }
 
+/* ── Theme toggle ── */
+.root-pane.dark-mode .theme-toggle-button {
+    -fx-text-fill: #cbd5e1;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.root-pane.dark-mode .theme-toggle-button:hover {
+    -fx-background-color: #1f2937;
+    -fx-text-fill: #f9fafb;
+}
+
+/* ── Content area ── */
 .root-pane.dark-mode .content-area {
     -fx-background-color: #1e293b;
     -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 2);
 }
 
+/* ── Labels — catch all, overridden by inline styles so we use !important equivalent via specificity ── */
 .root-pane.dark-mode .label {
     -fx-text-fill: #e5e7eb;
 }
@@ -187,6 +208,7 @@
     -fx-text-fill: #f1f5f9;
 }
 
+/* ── Buttons ── */
 .root-pane.dark-mode .button {
     -fx-background-color: #334155;
     -fx-text-fill: #f8fafc;
@@ -196,28 +218,35 @@
     -fx-background-color: #475569;
 }
 
-.root-pane.dark-mode .theme-toggle-button {
-    -fx-background-color: #0b1220;
-    -fx-text-fill: #e2e8f0;
-    -fx-border-color: #334155;
+/* ── Ingredient list cell buttons (up/down/delete) ── */
+.root-pane.dark-mode .list-cell .button {
+    -fx-background-color: #334155;
+    -fx-text-fill: #f8fafc;
 }
 
-.root-pane.dark-mode .theme-toggle-button:hover {
-    -fx-background-color: #1e293b;
+.root-pane.dark-mode .list-cell .button:hover {
+    -fx-background-color: #475569;
 }
 
+/* ── Text inputs ── */
 .root-pane.dark-mode .text-field,
 .root-pane.dark-mode .text-area,
 .root-pane.dark-mode .combo-box,
 .root-pane.dark-mode .choice-box,
 .root-pane.dark-mode .date-picker,
-.root-pane.dark-mode .spinner,
+.root-pane.dark-mode .spinner {
+    -fx-background-color: #0f172a;
+    -fx-control-inner-background: #0f172a;
+    -fx-text-fill: #e2e8f0;
+    -fx-border-color: #334155;
+}
+
+/* ── Lists and tables ── */
 .root-pane.dark-mode .list-view,
 .root-pane.dark-mode .table-view,
 .root-pane.dark-mode .tree-view {
     -fx-background-color: #0f172a;
     -fx-control-inner-background: #0f172a;
-    -fx-text-fill: #e2e8f0;
     -fx-border-color: #334155;
 }
 
@@ -235,6 +264,7 @@
     -fx-text-fill: white;
 }
 
+/* ── Scroll and split panes ── */
 .root-pane.dark-mode .scroll-pane,
 .root-pane.dark-mode .split-pane,
 .root-pane.dark-mode .titled-pane,
@@ -242,6 +272,42 @@
     -fx-background-color: #1e293b;
 }
 
+.root-pane.dark-mode .scroll-pane > .viewport {
+    -fx-background-color: #1e293b;
+}
+
+.root-pane.dark-mode .scroll-pane .vbox {
+    -fx-background-color: #1e293b;
+}
+
+/* ── Context menu (Library dropdown) ── */
+.root-pane.dark-mode .context-menu {
+    -fx-background-color: #1e293b;
+    -fx-border-color: #334155;
+    -fx-border-width: 1;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+
+.root-pane.dark-mode .menu-item {
+    -fx-background-color: transparent;
+}
+
+.root-pane.dark-mode .menu-item .label {
+    -fx-text-fill: #e5e7eb;
+}
+
+.root-pane.dark-mode .menu-item:focused,
+.root-pane.dark-mode .menu-item:hover {
+    -fx-background-color: #2563eb;
+}
+
+.root-pane.dark-mode .menu-item:focused .label,
+.root-pane.dark-mode .menu-item:hover .label {
+    -fx-text-fill: white;
+}
+
+/* ── Collection cards ── */
 .root-pane.dark-mode .collection-delete-button {
     -fx-text-fill: #fca5a5;
 }

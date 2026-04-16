@@ -45,11 +45,7 @@ public class IngredientEditCell extends ListCell<EditableIngredient> {
     displayLabel.setMaxWidth(Double.MAX_VALUE);
     displayLabel.setStyle("-fx-font-size: 13px;");
 
-    String btnStyle =
-        "-fx-background-color: #f0f0f0;"
-            + "-fx-font-size: 12px;"
-            + "-fx-padding: 3 8 3 8;"
-            + "-fx-min-width: 30px;";
+    String btnStyle = "-fx-font-size: 12px;" + "-fx-padding: 3 8 3 8;" + "-fx-min-width: 30px;";
     upBtn.setStyle(btnStyle);
     downBtn.setStyle(btnStyle);
     removeBtn.setStyle(

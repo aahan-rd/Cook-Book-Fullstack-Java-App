@@ -6,6 +6,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.Region?>
 
 <!--
   Main application layout for CookYourBooks.
@@ -29,27 +30,23 @@
             <Label text="CookYourBooks" styleClass="sidebar-title" />
 
             <Button fx:id="libraryButton" text="Library" styleClass="nav-button" maxWidth="Infinity" />
-            <Button fx:id="editorButton" text="Recipe Editor" styleClass="nav-button"
-                maxWidth="Infinity" />
+            <Button fx:id="editorButton" text="Recipe Editor" styleClass="nav-button" maxWidth="Infinity" />
             <Button fx:id="importButton" text="Import" styleClass="nav-button" maxWidth="Infinity" />
             <Button fx:id="searchButton" text="Search" styleClass="nav-button" maxWidth="Infinity" />
+
+            <!-- Spacer pushes toggle to bottom -->
+            <Region VBox.vgrow="ALWAYS" />
+
+            <Button fx:id="themeToggleButton" text="☀ Switch to Dark" styleClass="theme-toggle-button" maxWidth="Infinity" />
         </VBox>
     </left>
 
     <!-- Content area — feature views are swapped in here -->
     <center>
-        <StackPane>
-            <StackPane fx:id="contentArea" styleClass="content-area">
-                <padding>
-                    <Insets top="16" right="16" bottom="16" left="16" />
-                </padding>
-            </StackPane>
-            <Button fx:id="themeToggleButton" text="Switch to Dark" styleClass="theme-toggle-button"
-                StackPane.alignment="BOTTOM_RIGHT">
-                <StackPane.margin>
-                    <Insets top="0" right="20" bottom="20" left="0" />
-                </StackPane.margin>
-            </Button>
+        <StackPane fx:id="contentArea" styleClass="content-area">
+            <padding>
+                <Insets top="16" right="16" bottom="16" left="16" />
+            </padding>
         </StackPane>
     </center>
 

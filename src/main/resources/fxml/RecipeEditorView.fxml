@@ -19,8 +19,7 @@
     <!-- ══════════════════════════════════════
          READ PANEL
     ══════════════════════════════════════ -->
-    <ScrollPane fx:id="readPanel" fitToWidth="true"
-                style="-fx-background: white; -fx-background-color: white;">
+    <ScrollPane fx:id="readPanel" fitToWidth="true">
         <VBox fx:id="readContent" spacing="0">
             <padding><Insets top="28" right="36" bottom="36" left="36"/></padding>
 
@@ -103,8 +102,7 @@
     <!-- ══════════════════════════════════════
          EDIT PANEL
     ══════════════════════════════════════ -->
-    <ScrollPane fx:id="editPanel" fitToWidth="true"
-                style="-fx-background: white; -fx-background-color: white;">
+    <ScrollPane fx:id="editPanel" fitToWidth="true">
         <VBox spacing="0">
             <padding><Insets top="24" right="36" bottom="36" left="36"/></padding>
 
@@ -113,10 +111,9 @@
                 <Label text="Edit Recipe"
                        HBox.hgrow="ALWAYS"
                        maxWidth="Infinity"
-                       style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #444;"/>
+                       style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
                 <Button fx:id="discardButton" text="Cancel"
-                        style="-fx-background-color: #eeeeee;
-                               -fx-font-size: 13px;
+                        style="-fx-font-size: 13px;
                                -fx-padding: 7 16 7 16;
                                -fx-background-radius: 6;"/>
                 <Region prefWidth="8"/>
@@ -155,11 +152,11 @@
                    style="-fx-font-weight: bold; -fx-font-size: 13px;"/>
             <Region prefHeight="8"/>
             <GridPane hgap="12" vgap="8">
-                <Label text="Servings" style="-fx-font-size: 12px; -fx-text-fill: #666;"
+                <Label text="Servings" style="-fx-font-size: 12px;"
                        GridPane.columnIndex="0" GridPane.rowIndex="0"/>
-                <Label text="Prep time" style="-fx-font-size: 12px; -fx-text-fill: #666;"
+                <Label text="Prep time" style="-fx-font-size: 12px;"
                        GridPane.columnIndex="1" GridPane.rowIndex="0"/>
-                <Label text="Cook time" style="-fx-font-size: 12px; -fx-text-fill: #666;"
+                <Label text="Cook time" style="-fx-font-size: 12px;"
                        GridPane.columnIndex="2" GridPane.rowIndex="0"/>
                 <TextField fx:id="servingsField"
                            promptText="e.g. 4 servings"

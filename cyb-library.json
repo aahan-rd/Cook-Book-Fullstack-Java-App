@@ -63,159 +63,17 @@
         "description" : null,
         "preparation" : null,
         "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "garlic",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
       } ],
       "instructions" : [ {
         "stepNumber" : 1,
         "text" : "Put everything in a bowl and mix until you get a guacamole-type consistency. Serve with tortilla chips.",
-        "ingredientRefs" : [ {
-          "ingredient" : {
-            "type" : "measured",
-            "name" : "avocados",
-            "quantity" : {
-              "type" : "exact",
-              "amount" : 4.0,
-              "unit" : "WHOLE"
-            },
-            "preparation" : null,
-            "notes" : null
-          },
-          "quantity" : {
-            "type" : "exact",
-            "amount" : 4.0,
-            "unit" : "WHOLE"
-          }
-        }, {
-          "ingredient" : {
-            "type" : "measured",
-            "name" : "limes",
-            "quantity" : {
-              "type" : "exact",
-              "amount" : 2.0,
-              "unit" : "WHOLE"
-            },
-            "preparation" : null,
-            "notes" : null
-          },
-          "quantity" : {
-            "type" : "exact",
-            "amount" : 2.0,
-            "unit" : "WHOLE"
-          }
-        }, {
-          "ingredient" : {
-            "type" : "measured",
-            "name" : "ground cumin",
-            "quantity" : {
-              "type" : "fractional",
-              "whole" : 0,
-              "numerator" : 1,
-              "denominator" : 2,
-              "unit" : "TEASPOON"
-            },
-            "preparation" : null,
-            "notes" : null
-          },
-          "quantity" : {
-            "type" : "fractional",
-            "whole" : 0,
-            "numerator" : 1,
-            "denominator" : 2,
-            "unit" : "TEASPOON"
-          }
-        }, {
-          "ingredient" : {
-            "type" : "measured",
-            "name" : "ripe plum tomatoes",
-            "quantity" : {
-              "type" : "exact",
-              "amount" : 2.0,
-              "unit" : "WHOLE"
-            },
-            "preparation" : null,
-            "notes" : null
-          },
-          "quantity" : {
-            "type" : "exact",
-            "amount" : 2.0,
-            "unit" : "WHOLE"
-          }
-        }, {
-          "ingredient" : {
-            "type" : "measured",
-            "name" : "red onion",
-            "quantity" : {
-              "type" : "fractional",
-              "whole" : 0,
-              "numerator" : 1,
-              "denominator" : 4,
-              "unit" : "CUP"
-            },
-            "preparation" : null,
-            "notes" : null
-          },
-          "quantity" : {
-            "type" : "fractional",
-            "whole" : 0,
-            "numerator" : 1,
-            "denominator" : 4,
-            "unit" : "CUP"
-          }
-        }, {
-          "ingredient" : {
-            "type" : "measured",
-            "name" : "garlic",
-            "quantity" : {
-              "type" : "exact",
-              "amount" : 2.0,
-              "unit" : "TEASPOON"
-            },
-            "preparation" : null,
-            "notes" : null
-          },
-          "quantity" : {
-            "type" : "exact",
-            "amount" : 2.0,
-            "unit" : "TEASPOON"
-          }
-        }, {
-          "ingredient" : {
-            "type" : "measured",
-            "name" : "jalapenos",
-            "quantity" : {
-              "type" : "exact",
-              "amount" : 2.0,
-              "unit" : "WHOLE"
-            },
-            "preparation" : null,
-            "notes" : null
-          },
-          "quantity" : {
-            "type" : "exact",
-            "amount" : 2.0,
-            "unit" : "WHOLE"
-          }
-        }, {
-          "ingredient" : {
-            "type" : "measured",
-            "name" : "fresh cilantro",
-            "quantity" : {
-              "type" : "fractional",
-              "whole" : 0,
-              "numerator" : 1,
-              "denominator" : 2,
-              "unit" : "CUP"
-            },
-            "preparation" : null,
-            "notes" : null
-          },
-          "quantity" : {
-            "type" : "fractional",
-            "whole" : 0,
-            "numerator" : 1,
-            "denominator" : 2,
-            "unit" : "CUP"
-          }
-        } ]
+        "ingredientRefs" : [ ]
       }, {
         "stepNumber" : 2,
         "text" : "Prepare to be everyone's best friend.",
@@ -223,6 +81,10 @@
       }, {
         "stepNumber" : 3,
         "text" : "The lime juice is what really makes this recipe stand out, so make sure not to skimp!",
+        "ingredientRefs" : [ ]
+      }, {
+        "stepNumber" : 4,
+        "text" : "preheat oven",
         "ingredientRefs" : [ ]
       } ],
       "conversionRules" : [ ]
@@ -245,6 +107,12 @@
       }, {
         "type" : "vague",
         "name" : "baking powder",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "lime",
         "description" : null,
         "preparation" : null,
         "notes" : null
@@ -392,39 +260,6 @@
     "id" : "8c4ab3bd-b3b1-4958-8a76-35318731b62a",
     "title" : "aahan",
     "recipes" : [ {
-      "id" : "1e02c1ae-1b23-4d52-8788-2f476f825838",
-      "title" : "test recipe",
-      "servings" : null,
-      "ingredients" : [ {
-        "type" : "vague",
-        "name" : "all-purpose flour",
-        "description" : null,
-        "preparation" : null,
-        "notes" : null
-      }, {
-        "type" : "vague",
-        "name" : "sugar",
-        "description" : null,
-        "preparation" : null,
-        "notes" : null
-      }, {
-        "type" : "vague",
-        "name" : "baking powder",
-        "description" : null,
-        "preparation" : null,
-        "notes" : null
-      } ],
-      "instructions" : [ {
-        "stepNumber" : 1,
-        "text" : "preheat oven",
-        "ingredientRefs" : [ ]
-      }, {
-        "stepNumber" : 2,
-        "text" : "scoop dough into tray",
-        "ingredientRefs" : [ ]
-      } ],
-      "conversionRules" : [ ]
-    }, {
       "id" : "0e89edce-7c10-422d-b341-876e6c6d8f51",
       "title" : "Pumpkin Soup",
       "servings" : null,
@@ -1390,6 +1225,45 @@
           },
           "quantity" : null
         } ]
+      } ],
+      "conversionRules" : [ ]
+    }, {
+      "id" : "1e02c1ae-1b23-4d52-8788-2f476f825838",
+      "title" : "test recipe",
+      "servings" : null,
+      "ingredients" : [ {
+        "type" : "vague",
+        "name" : "all-purpose flour",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "sugar",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "baking powder",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      }, {
+        "type" : "vague",
+        "name" : "lime",
+        "description" : null,
+        "preparation" : null,
+        "notes" : null
+      } ],
+      "instructions" : [ {
+        "stepNumber" : 1,
+        "text" : "preheat oven",
+        "ingredientRefs" : [ ]
+      }, {
+        "stepNumber" : 2,
+        "text" : "scoop dough into tray",
+        "ingredientRefs" : [ ]
       } ],
       "conversionRules" : [ ]
     } ],

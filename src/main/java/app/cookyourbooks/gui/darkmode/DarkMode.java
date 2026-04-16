@@ -58,10 +58,10 @@ public class DarkMode {
       if (!rootPane.getStyleClass().contains(DARK_MODE_CLASS)) {
         rootPane.getStyleClass().add(DARK_MODE_CLASS);
       }
-      themeToggleButton.setText("Switch to Light");
+      themeToggleButton.setText("☾ Dark Mode");
     } else {
       rootPane.getStyleClass().remove(DARK_MODE_CLASS);
-      themeToggleButton.setText("Switch to Dark");
+      themeToggleButton.setText("☀ Light Mode");
     }
   }
 }
