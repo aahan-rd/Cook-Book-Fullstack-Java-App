@@ -118,7 +118,7 @@
                                -fx-background-radius: 6;"/>
                 <Region prefWidth="8"/>
                 <Button fx:id="saveButton" text="Save"
-                        style="-fx-background-color: #4CAF50;
+                        style="-fx-background-color: #4A90D9;
                                -fx-text-fill: white;
                                -fx-font-size: 13px;
                                -fx-padding: 7 22 7 22;
