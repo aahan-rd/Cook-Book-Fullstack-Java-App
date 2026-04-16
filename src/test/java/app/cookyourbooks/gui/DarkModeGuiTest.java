@@ -49,7 +49,7 @@ class DarkModeGuiTest {
     Button toggle = robot.lookup("#themeToggleButton").queryAs(Button.class);
 
     assertThat(root.getStyleClass()).doesNotContain("dark-mode");
-    assertThat(toggle.getText()).isEqualTo("Switch to Dark");
+    assertThat(toggle.getText()).isEqualTo("☀ Light Mode");
   }
 
   @Test
@@ -61,7 +61,7 @@ class DarkModeGuiTest {
     org.testfx.util.WaitForAsyncUtils.waitForFxEvents();
 
     assertThat(root.getStyleClass()).contains("dark-mode");
-    assertThat(toggle.getText()).isEqualTo("Switch to Light");
+    assertThat(toggle.getText()).isEqualTo("☾ Dark Mode");
     assertThat(preferences.getBoolean(DarkMode.PREF_KEY_DARK_MODE, false)).isTrue();
   }
 
@@ -76,7 +76,7 @@ class DarkModeGuiTest {
     org.testfx.util.WaitForAsyncUtils.waitForFxEvents();
 
     assertThat(root.getStyleClass()).doesNotContain("dark-mode");
-    assertThat(toggle.getText()).isEqualTo("Switch to Dark");
+    assertThat(toggle.getText()).isEqualTo("☀ Light Mode");
     assertThat(preferences.getBoolean(DarkMode.PREF_KEY_DARK_MODE, true)).isFalse();
   }
 
