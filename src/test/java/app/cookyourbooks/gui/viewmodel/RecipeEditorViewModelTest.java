@@ -317,8 +317,13 @@ class RecipeEditorViewModelTest extends ViewModelTestBase {
     assertTrue(vm.isSaving());
 
     release.countDown();
-    waitForFxEvents();
-    waitForFxEvents();
+
+    long deadline = System.currentTimeMillis() + 3000;
+    while (vm.isSaving() && System.currentTimeMillis() < deadline) {
+      waitForFxEvents();
+      Thread.sleep(20);
+    }
+
     assertFalse(vm.isSaving());
   }
 
