@@ -31,8 +31,8 @@
                        wrapText="true"
                        style="-fx-font-size: 28px; -fx-font-weight: bold;"/>
                 <Button fx:id="exportPdfButton" text="Export PDF"
-                        style="-fx-background-color: #eeeeee;
-                               -fx-text-fill: #333;
+                        style="-fx-background-color: #10B981;
+                               -fx-text-fill: white;
                                -fx-font-size: 13px;
                                -fx-padding: 7 16 7 16;
                                -fx-background-radius: 6;"/>
